@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="uewohg0xhjn_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.TAdapter">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="500,260,226,145" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TAdapter.ADOConnection1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TAdapter.ADOQuery1" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TAdapter.connect()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TAdapter.GetDataSource(System.string,System.string)" />
+      <reference referencedUin="delphi:l_impl:src:Project1:Unit2.TAdapter:Unit2.TInterfaceAdapter">
+        <property name="sourceAnchor" value="592,260" />
+        <property name="targetAnchor" value="592,156" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit2.TAdapter.ADOConnection1">
+        <property name="sourceAnchor" value="500,320" />
+        <property name="targetAnchor" value="255,320" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit1.TForm1">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="860,60,158,145" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Button1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Label1" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.Button1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Adapter" />
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.Adapter">
+        <property name="sourceAnchor" value="860,108" />
+        <property name="targetAnchor" value="665,108" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.TInterfaceAdapter">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="520,60,145,96" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TInterfaceAdapter.connect()" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TInterfaceAdapter.GetDataSource(System.string,System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.TMyADOConnection">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="80,280,175,81" />
+      <property name="location_set_by_user" value="True" />
+    </reference>
+  </view>
+</nodeSet>
